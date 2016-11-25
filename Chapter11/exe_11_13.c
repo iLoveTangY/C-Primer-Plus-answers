@@ -38,6 +38,9 @@ double str_to_dou(char *str)
         i++;
     }
 
+    if(isNe)
+        ret = 0 - ret;
+
     return ret;
 }
 
